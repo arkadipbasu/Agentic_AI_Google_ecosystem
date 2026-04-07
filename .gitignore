@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.tox/
+.venv/
+venv/
+env/
+*.pyc
+
+# Environment / secrets
+.env
+token.json
+credentials.json
+
+# SQLite fallback DB (local dev only)
+*.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Test artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
